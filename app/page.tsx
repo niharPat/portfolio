@@ -7,7 +7,7 @@ export default function Page() {
         Nihar Patel
       </h1>
       <p className="mb-4">
-        {`Hello, I am Nihar! passionate about Linux customization,
+        {`Hello, I am Nihar! passionate about Linux system configuration,
          DevOps and AWS, with a focus on efficient workflows and scalable solutions.`}
       </p>
       <div className="my-8">
