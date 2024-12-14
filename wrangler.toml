@@ -1,0 +1,5 @@
+name = "spring-forest-4033"
+type = "javascript"
+
+# Pointing to the entry script for the worker
+main = "worker.js"
