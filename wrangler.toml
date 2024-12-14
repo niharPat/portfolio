@@ -3,3 +3,5 @@ type = "javascript"
 
 # Pointing to the entry script for the worker
 main = "worker.js"
+
+compatibility_date = "2024-12-14"
