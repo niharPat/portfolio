@@ -38,6 +38,9 @@ importers:
       next-mdx-remote:
         specifier: ^4.4.1
         version: 4.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      next-on-workers:
+        specifier: ^1.0.0
+        version: 1.0.0
       postcss:
         specifier: ^8.4.35
         version: 8.4.35
@@ -60,6 +63,9 @@ importers:
       '@rollup/plugin-inject':
         specifier: ^5.0.0
         version: 5.0.5
+      next-on-pages:
+        specifier: ^0.1.6
+        version: 0.1.6
       wrangler:
         specifier: ^3.95.0
         version: 3.95.0
@@ -936,6 +942,14 @@ packages:
     peerDependencies:
       react: '>=16.x <=18.x'
       react-dom: '>=16.x <=18.x'
+
+  next-on-pages@0.1.6:
+    resolution: {integrity: sha512-ggOHkbeyMxI6WQ21CWOBRI2w0UjTPZYpSOSsOQ/HpESnMJaMjatd6Y0Uy50fHvZ3hHn2ijPzKwHmQ+fAmCrJ7Q==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+    hasBin: true
+
+  next-on-workers@1.0.0:
+    resolution: {integrity: sha512-Imq6ZoonJSPvrNeWTqhaUaofuxtkKSvahZcuq+XJZ9fMwPvn94UYjgMrVnGa4Hv8heJoy4utoz4rHNpQHb9s5g==}
 
   next@14.2.0-canary.62:
     resolution: {integrity: sha512-SsS+fpJ/anrtLgeCC76V9WOlreZanUYsuKsRMx+FDwOJ3ZnbZkohu3+RRLIQM1vtWcp707iV11+OlF/qgOldCA==}
@@ -2157,6 +2171,10 @@ snapshots:
       vfile-matter: 3.0.1
     transitivePeerDependencies:
       - supports-color
+
+  next-on-pages@0.1.6: {}
+
+  next-on-workers@1.0.0: {}
 
   next@14.2.0-canary.62(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:

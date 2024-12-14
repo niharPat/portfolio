@@ -1,12 +1,12 @@
 {
   "private": true,
-  "packageManager": "pnpm@9.10.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.0",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
@@ -16,16 +16,17 @@
     "geist": "1.2.2",
     "next": "canary",
     "next-mdx-remote": "^4.4.1",
+    "next-on-workers": "^1.0.0",
     "postcss": "^8.4.35",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sugar-high": "^0.6.0",
     "tailwindcss": "4.0.0-alpha.13",
-    "typescript": "5.3.3",
-    "@jridgewell/sourcemap-codec": "^1.4.0"
+    "typescript": "5.3.3"
   },
   "devDependencies": {
-    "wrangler": "^3.95.0",
-    "@rollup/plugin-inject": "^5.0.0"
+    "@rollup/plugin-inject": "^5.0.0",
+    "next-on-pages": "^0.1.6",
+    "wrangler": "^3.95.0"
   }
 }
