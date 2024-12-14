@@ -28,5 +28,8 @@
     "@rollup/plugin-inject": "^5.0.0",
     "next-on-pages": "^0.1.6",
     "wrangler": "^3.95.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   }
 }
